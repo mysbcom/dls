@@ -1,0 +1,52 @@
+#insta_fonts{position:relative;background-color:#fff;border-radius:10px;max-width:800px;margin:50px auto;display:block;overflow:hidden}
+.insta-form{
+	display:block;
+	width:100%;
+	position:relative;
+	padding:35px 50px;
+	background-image:url(./bg.png);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat}
+	
+.title{margin-bottom:20px;text-align:center}
+.title>img{max-height:85px;max-width:100%;width:auto%;height:auto}
+.field-container{margin-bottom:25px}
+.field-container>textarea{
+	width:100%;
+	height:250px;
+	resize:none;
+	background:#f8fafb;
+	border-radius:10px;
+	font-size:20px;
+	color:#696969;
+	line-height:1.2;
+	text-align:left;
+	padding:30px}
+	
+.control-btn-block{text-align:center}
+.insta-btn{border-radius:7px;background-color:#f9d262;font-size:18px;padding:10px 35px;color:#2e303c;line-height:1.2;transition:all 350ms}
+.insta-btn:hover{background-color:rgba(249,210,98,.63)}
+.output{padding:0 50px;background-color:#f8fafb}
+.output div>span,
+.output span{position:relative;display:block;width:100%;font-size:20px;color:#696969;line-height:1.2;text-align:left;padding:5px 0;padding-right:70px}
+.output span:hover .btn-copiring,
+.output 
+#moreFontsCtn>span:hover .btn-copiring{opacity:1}
+.output .btn-copiring{display:inline-flex;align-items:center;justify-content:center;font-size:16px;color:#f8fafb;text-transform:uppercase;background-color:rgba(249,210,98,.63);border-radius:5px;position:absolute;top:3px;right:3px;left:auto;bottom:auto;opacity:.7;padding:3px 7px;transition:all 350ms}
+.output .btn-copiring:after{content:'Copy'}
+.output .copied.btn-copiring:after,
+.output .copied .btn-copiring:after{content:'Copied'}
+.output .btn-copiring:hover,
+.output .btn-copiring:focus{outline:0;box-shadow:none;border:0;text-decoration:none}
+.output .copied .btn-copiring,
+.output .copied.btn-copiring,
+.output .btn-copiring:hover{background-color:rgba(105,105,105,.75)}
+.output div>span+span{border-top:1px solid #ebeef0}
+.output 
+#moreFontsCtn span:first-child{border-top:1px solid #ebeef0}
+#insta_fonts .output 
+#moreFontsCtn+div{padding:30px 0;border-top:1px solid #ebeef0}
+
+@media(max-width:768px){#insta_fonts .insta-form{padding:20px}
+#insta_fonts .field-container>textarea{padding:15px}#insta_fonts .output{padding:0 20px}}
